@@ -1,7 +1,7 @@
 .version.contact_us /* version checker */
 {
-	color: #0000E9;
-	background-color: #63D9B0;
+	color: #000010;
+	background-color: #61B6EA;
 }
 
 .html
@@ -13,22 +13,20 @@
 {
 	z-index: 1;
 	width: 960px;
-	min-height: 438px;
+	min-height: 500px;
 	background-image: none;
 	border-style: none;
 	border-color: #000000;
 	background-color: transparent;
-	padding-bottom: 62px;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-#pu238
+#page_position_content
 {
-	width: 0.01px;
-	margin-right: -10000px;
 	margin-top: -36px;
-	margin-left: -100px;
+	padding-bottom: 62px;
+	width: 0.01px;
 }
 
 #u238
@@ -36,15 +34,6 @@
 	z-index: 2;
 	min-height: 78px;
 	background-color: #D7272D;
-}
-
-#u238_align_to_page
-{
-	margin-left: auto;
-	margin-right: auto;
-	width: 960px;
-	position: relative;
-	left: -100px;
 }
 
 #buttonu240
@@ -61,41 +50,27 @@
 	left: 141px;
 }
 
-#u241-4
+#u241
 {
-	z-index: 8;
+	z-index: 9;
+	height: 19px;
 	width: 106px;
-	min-height: 19px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 14px;
-	text-align: center;
-	letter-spacing: 1px;
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 12px;
 	left: 12px;
+	background: url("../images/u241.png") no-repeat 0px 0px;
 }
 
-#buttonu240:hover #u241-4
+#buttonu240:hover #u241
 {
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 19px;
-	width: 106px;
-	margin: 12px -10000px 0px 0px;
-}
-
-#buttonu240:hover #u241-4 p
-{
-	color: #FFFFFF;
-	visibility: inherit;
+	background: url("../images/u241-r.png") no-repeat 0px 0px;
 }
 
 #buttonu242
 {
-	z-index: 12;
+	z-index: 11;
 	width: 125px;
 	border-color: #787878;
 	background-color: #D7272D;
@@ -107,36 +82,22 @@
 	left: 291px;
 }
 
-#u243-4
+#u243
 {
 	z-index: 13;
+	height: 19px;
 	width: 84px;
-	min-height: 19px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 14px;
-	text-align: center;
-	letter-spacing: 1px;
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 12px;
 	left: 23px;
+	background: url("../images/u243.png") no-repeat 0px 0px;
 }
 
-#buttonu242:hover #u243-4
+#buttonu242:hover #u243
 {
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 19px;
-	width: 84px;
-	margin: 12px -10000px 0px 0px;
-}
-
-#buttonu242:hover #u243-4 p
-{
-	color: #FFFFFF;
-	visibility: inherit;
+	background: url("../images/u243-r.png") no-repeat 0px 0px;
 }
 
 #u239-4
@@ -144,16 +105,14 @@
 	z-index: 3;
 	display: block;
 	vertical-align: top;
-	margin-bottom: -15px;
 	position: relative;
 	margin-right: -10000px;
-	margin-top: 26px;
 	left: 441px;
 }
 
 #buttonu244
 {
-	z-index: 17;
+	z-index: 15;
 	width: 125px;
 	border-color: #787878;
 	background-color: #D7272D;
@@ -173,50 +132,27 @@
 	margin: 26px -10000px 0px 0px;
 }
 
-#u245-4
+#u245
 {
-	z-index: 18;
+	z-index: 17;
+	height: 19px;
 	width: 84px;
-	min-height: 19px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 14px;
-	text-align: center;
-	letter-spacing: 1px;
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 12px;
 	left: 23px;
+	background: url("../images/u245.png") no-repeat 0px 0px;
 }
 
-#buttonu242.ButtonSelected #u243-4,#buttonu244:hover #u245-4
+#buttonu244:hover #u245
 {
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 19px;
-	width: 84px;
-	margin: 12px -10000px 0px 0px;
-}
-
-#buttonu244.ButtonSelected #u245-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 19px;
-	width: 84px;
-	margin: 12px -10000px 0px 0px;
-}
-
-#buttonu244:hover #u245-4 p
-{
-	color: #FFFFFF;
-	visibility: inherit;
+	background: url("../images/u245-r.png") no-repeat 0px 0px;
 }
 
 #buttonu246
 {
-	z-index: 22;
+	z-index: 19;
 	width: 125px;
 	border-color: #787878;
 	background-color: #D7272D;
@@ -238,43 +174,13 @@
 
 #u247-4
 {
-	z-index: 23;
-	width: 106px;
-	min-height: 19px;
-	background-color: transparent;
-	color: #FFFFFF;
-	font-size: 14px;
-	text-align: center;
-	letter-spacing: 1px;
-	font-family: Georgia, Palatino, Palatino Linotype, Times, Times New Roman, serif;
+	z-index: 20;
+	display: block;
+	vertical-align: top;
 	position: relative;
 	margin-right: -10000px;
 	margin-top: 12px;
 	left: 12px;
-}
-
-#buttonu240.ButtonSelected #u241-4,#buttonu246:hover #u247-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 19px;
-	width: 106px;
-	margin: 12px -10000px 0px 0px;
-}
-
-#buttonu246.ButtonSelected #u247-4
-{
-	padding-top: 0px;
-	padding-bottom: 0px;
-	min-height: 19px;
-	width: 106px;
-	margin: 12px -10000px 0px 0px;
-}
-
-#buttonu246:hover #u247-4 p
-{
-	color: #FFFFFF;
-	visibility: inherit;
 }
 
 #u238-bw
@@ -283,64 +189,71 @@
 	min-height: 78px;
 }
 
+#u344-5
+{
+	z-index: 40;
+	display: block;
+	vertical-align: top;
+	margin-left: 346px;
+	margin-top: 22px;
+	position: relative;
+}
+
+#u343-11
+{
+	z-index: 29;
+	display: block;
+	vertical-align: top;
+	margin-left: 287px;
+	margin-top: 52px;
+	position: relative;
+}
+
 #u260
 {
-	z-index: 27;
-	height: 78px;
+	z-index: 24;
+	min-height: 69px;
 	background-color: #D7272D;
+	padding-bottom: 9px;
+}
+
+#u238_align_to_page,#u260_align_to_page
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 960px;
+	position: relative;
+	left: -100px;
+}
+
+#u368-4
+{
+	z-index: 45;
+	display: block;
+	vertical-align: top;
+	position: relative;
+	margin-right: -10000px;
+	margin-top: 47px;
+	left: 16px;
 }
 
 #u260-bw
 {
-	z-index: 27;
-	margin-top: 469px;
-	height: 78px;
+	z-index: 24;
+	min-height: 69px;
+	margin-top: 120px;
 }
 
 #u277-4
 {
-	z-index: 30;
+	z-index: 25;
 	width: 200px;
 	min-height: 22px;
 	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
-	margin-top: 524px;
 	left: -84px;
-}
-
-#pu273
-{
-	width: 0.01px;
-	margin-right: -10000px;
-	margin-top: 528px;
-	margin-left: 822px;
-}
-
-#u273
-{
-	z-index: 28;
-	width: 244px;
-	min-height: 24px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
+	top: -65px;
+	margin-bottom: -22px;
 	position: relative;
-	margin-right: -10000px;
-	margin-top: 10px;
-	left: 77px;
-}
-
-#u275
-{
-	z-index: 29;
-	width: 291px;
-	min-height: 44px;
-	border-style: none;
-	border-color: transparent;
-	background-color: transparent;
-	position: relative;
-	margin-right: -10000px;
 }
 
 body
@@ -354,6 +267,5 @@ body
 #page .verticalspacer
 {
 	clear: both;
-	margin-bottom: -524px;
 }
 
